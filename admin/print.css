@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    color: #000;
+    background-color: #fff;
+  }
+
+  header, footer, .kontakt {
+    display: none;
+  }
+
+  * {
+    background-image: none !important;
+  }
+  
+  img, svg {
+    display: none !important;
+  }
+
+  .print {
+    display: block;
+    justify-content: center;
+  }

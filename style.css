@@ -1,0 +1,752 @@
+/* fonty */
+* {
+    font-family: 'poppins';
+  }
+
+  .pagePadding{
+    padding-top: 10em;
+  }
+
+  .pagePaddingAll{
+    padding-top: 8.9em;
+  }
+
+  .pagePaddingSmall{
+    padding-top: 2em;
+  }
+
+  .pagePadding h1, h2{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .pagePaddingAll h1, h2{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .pagePaddingSmall h1, h2{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .seminaryPagePadding{
+    padding-top: 10em;
+  }
+
+  .pageText{
+    text-align: justify;
+    margin: 4em 2em 2em 2em;
+  }
+  
+  .bolder{
+    font-weight: bold;
+  }
+  
+  .centerText{
+    text-align: center; 
+  }
+  
+  p {
+    font-size: 1.17em;
+  }
+  
+  .textKruhy {
+    color: #532e2e;
+  }
+  
+  .textKruhy:hover {
+    color: #2b2b2b;
+  }
+  
+  .pKruhy {
+    color: #532e2e;
+  }
+  
+  .textKarty {
+    color: #493c36;
+    text-align: center;
+  }
+  
+  .textKarty:hover {
+    color: #A50113;
+  }
+  
+  h1.h1Nadpis::after {
+    content: "";
+    display: block;
+    width: 32px;
+    padding-top: 3px;
+    border-bottom: 4px solid #A50113;
+  }
+  
+  .h2Kontakt {
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .h2Kontakt::after {
+    content: "";
+    display: block;
+    width: 32px;
+    border-bottom: 4px solid #A50113;
+  }
+  
+  .pKontakt {
+    color: white;
+    text-align: left;
+    padding-top: 20px;
+  }
+
+  .h2Footer {
+    color: #2b2b2b;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .h2Footer::after {
+    content: "";
+    display: block;
+    width: 32px;
+    border-bottom: 4px solid #A50113;
+  }
+  
+  .pFooter {
+    color: #2b2b2b;
+    text-align: left;
+    padding-top: 20px;
+  }
+  
+  .space {
+    padding-bottom: 10px;
+    font-size: 16px;
+    list-style-type: none;
+  }
+    
+  ul {
+    padding-left: 0px;
+  }
+  
+  .h3Seznam {
+    text-align: left;
+  }
+  
+  .ulSeznam {
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .nesmi {
+    font-weight: bold;
+    color: #bd2828; 
+  }
+  
+  .card-title {
+    font-size: 1.875em;
+    font-weight: bolder;
+    color: #2b2b2b; 
+    margin-top: 15px; 
+    text-transform: uppercase;
+  }
+  
+  .main-title {
+    font-weight: bolder;
+    text-align: left;
+    color: #2b2b2b; 
+    margin-top: 15px; 
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .triple-title {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #532e2e; 
+    margin-top: 15px;  
+  }
+  
+  .aboutUs-title {
+    font-size: 15;
+    font-weight: normal;
+    color: #A50113;
+    margin-top: 15px;
+  }
+  
+  /*
+  .reference-title {
+    font-size: 25px;
+    color: #2b2b2b; 
+    margin-top: 15px; 
+  }
+  */
+  
+  .triple-title:hover {
+      color: #2b2b2b;   
+  }
+  
+  .triple-text {
+      font-size: 25px;
+  }
+  
+  .h4Text {
+      font-size: 19px;
+  }
+  
+  .card-text {
+      font-size: 1.125em;
+      color: #2b2b2b;
+  }
+
+  .card-text-kunka {
+    font-size: 1.125em;
+    color: #f1f1f1;
+}
+  
+  .text-strong {
+      font-weight: bold;
+  }
+  
+  .text-top {
+      display: block;
+      margin-top: 100px;
+  }
+  
+  .text-top-mala {
+      display: block;
+      margin-top: 50px;
+  }
+  
+  .text-top-mini {
+      display: block;
+      margin-top: 25px;
+  }
+  
+  .hlavicka th {
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+      .text-top {
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      }  
+  }  
+  
+  @media screen and (max-width: 768px) {
+      .text-top-mala {
+      display: block;
+      margin-top: 10px;
+      }  
+  }  
+  
+  /* navigace */
+  
+  .navigace {
+    background-color: #1A2328;   
+  }
+  
+  .nav.navbar-nav li {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    display: inline-block;
+    padding: 0px 15px;
+    color: #fff;
+  }
+  
+  .nav.navbar-nav li a {
+    color: white !important; 
+    background-color: #1A2328 !important;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .nav.navbar-nav li a:hover {
+    color: #A50113 !important; 
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .navbar-brand {
+    padding-top: 10px !important;
+  }
+  
+  .linka {
+    position: relative;
+    color: #2b2b2b;
+    text-decoration: none;
+  }
+  
+  .linka:hover {
+    color: #2b2b2b;
+  }
+  
+  .linka::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #A50113;
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: transform 0.3s ease;
+  }
+  
+  .linka:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .dropdown-menu li {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    display: inline-block;
+    padding: 0px 15px;
+    color: #fff;
+    border-bottom: 1px solid rgba(128, 128, 128, .4);;
+    width: 100%;
+  }
+    
+  .dropdown-menu {
+    width: auto;
+    background-color: #DFE2DB !important;
+  }
+  
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+  
+  /* hlavní foto popisy */
+  
+  .back {
+    background-image: url('foto/foto9.jpg');
+    background-repeat: no-repeat;
+    background-size: 1910px;
+    height: 780px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .text-block {
+    align-items: center;
+    background-color: #2b2b2b;
+    padding: 50px !important;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.651); /* #2b2b2b background with 0.5 opacity */
+    border: 1px solid #A50113;
+    width: 130%;
+  }
+
+  .bottom-right {
+    position: absolute;
+    align-items: center;
+    padding: 20px !important;
+    bottom: 15%;
+    right: 16px;
+    color: #f1f1f1;
+  }
+
+  .textFoto {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .shadow {
+    border-radius: 5%;
+    box-shadow: 5px 10px 8px #888888;
+  }
+  
+  /* hlavní sekce background, font, style... */
+  body {
+    background-color: #e6e6e6 !important;
+  }
+
+  .karty {
+    background-color: #e6e6e6;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  
+  .kartyBarva:hover {
+    background-color: #b48d57;
+  }
+  
+  .onas {
+    background-color: #f8f2f1;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  
+  .kruhy {
+    background-color: #bd2828;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .sortimentDiv {
+    background-color: #ca4a4d;
+    padding-top: 20px !important;
+    padding-bottom: 30px;
+    margin-top: 0;
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .sortimentDiv {
+      padding-top: 10em !important;
+    } 
+  }
+  
+  .reference {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .kontakt {
+    background-color: #1A2328;
+    padding-bottom: 30px;
+  } 
+  
+  /* karty */
+  
+  .card {
+    background-color: white;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    border: none;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card:hover {
+  
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+    border: 1px solid #A50113;
+  }
+  
+  .card-img {
+    position: relative;
+    inset: 0;
+    object-fit: cover;
+    transition: transform .75s;
+  }
+  
+  .card:hover .card-img {
+    transform: scale(1.15);
+  }
+  
+  .card h3 {
+    overflow: hidden;
+    height: 25px;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  
+  .card2 p {
+    overflow: hidden;
+    height: 20px;
+    font-weight: 500;
+    font-size: 1,5rem;
+    color: #493c36;
+  }
+  
+  
+  .karta {
+    color: #2b2b2b;
+    text-align: center;
+  }
+  
+  .list-group {
+    border-radius:20px !important;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+  }
+  
+  .boxik {
+    background-color: white;
+  }
+  /* odkazy */
+  
+  .odkaz {
+      color: white !important;
+  }
+
+  .odkaz:link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .odkaz:hover {
+    text-decoration: none;
+  }
+  
+  /* style grafika pod nadpisy */
+  
+  .teckyKruhy {
+    color: #eae6d8; 
+    vertical-align: top; 
+  }
+  
+  .teckyKarty {
+    color: #bd2828; 
+    vertical-align: top; 
+  }
+  
+  .teckyKontakt {
+    color: #e6e6e6; 
+    vertical-align: top; 
+  }
+  
+  /* tlačítko */
+  
+  .button {
+    background-color: #A50113;
+    border: 1px solid #A50113;
+    color: #eae6d8;
+    padding: 12px 40px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    justify-content: center;
+  }
+  
+  .buttonNav {
+    background-color: #bd2828; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 550;
+  }
+  
+  .button:hover {
+    background-color: white;
+    color: #A50113;
+    border: 1px solid #A50113;
+    text-decoration: none;
+  }
+  
+  .buttonHas {
+    width: 150px; 
+  }
+  
+  /* img opacity */
+  
+  .opa {
+    filter: brightness(60%);
+  }
+  
+  .imgOpa {
+    opacity: 1;
+  }
+  
+  .imgOpa:hover {
+    opacity: 0.5;
+  }
+  
+  .imgBorder {
+    border: 1px solid #A50113 !important;
+  }
+  
+  /* kontakt form */
+  
+  .form-control:focus {
+    border-color: #A50113 !important;
+    box-shadow: 0 0 0 0.2rem #A50113 !important;
+  }
+  
+  /* mobil 
+  
+  @media screen and (min-width: 768px) {
+      li.dropdown:hover .dropdown-menu{
+              display:block;
+          }   
+  }  
+  */
+  /* kdo ví */
+      
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }    
+  
+  .carousel-item .img-fluid {
+    width:100%;
+    height:100%;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .cont {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .imageStyle {
+    width: 100%;
+    box-shadow: -15px -15px 5px rgba(165, 1, 19, 0.18);
+    border: 1px solid #a50113;
+  }
+  
+  .bi {
+      color: white;
+  }
+
+  .ikonky {
+      color: black;
+  }
+
+  .biKontakt {
+    color: #2b2b2b;
+}
+  
+  .biFace:hover {
+    color: #A50113;
+  }
+  
+  /* galerie */
+  .photo-gallery .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 40px;
+  }
+  
+  .photo-gallery .intro p {
+    margin-bottom:0;
+  }
+  
+  .photo-gallery .photos {
+    padding-bottom:20px;
+  }
+  
+  .photo-gallery .item {
+    padding-bottom:30px;
+  }
+
+.col-md-6 a.productHover:hover{
+    text-decoration: none;
+  }
+  
+  .panel-footer{
+    margin: 0.25em 0 1.5em 0 !important;
+    background-color: #fff !important;
+    color: #2b2b2b;
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-align: left;
+  }
+  
+  .panel-footer-details{
+    font-weight: normal;
+    color: #2b2b2b;
+    font-size: .8em;
+    text-align: right;
+  }
+  
+  .panel-body{
+    padding: 0 0 0 0 !important;
+    margin: 0 0 0 0 !important;
+    border-style:none !important;
+  }
+  
+  .panel{
+    border-style:none !important;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .panel:hover {
+    border: 1px solid #A50113 !important;
+    box-shadow: -10px -10px 5px rgba(0, 0, 0, 0.15);
+  }
+  
+  .panel-img {
+    position: relative;
+    inset: 0;
+    object-fit: cover;
+    transition: transform .75s;
+  }
+  
+  .panel:hover .panel-img {
+    transform: scale(1.05);
+  }
+
+  .priceInProductPrint{
+    color: #2b2b2b;
+    font-size: 1.1em;
+    font-weight: normal;
+    text-align: right;
+  }
+
+  .orderButtonSeminary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1.seminarHeading {
+    text-align: left;
+  }
+  
+  .seminaryDetails {
+    background-color: #f2f2f2;
+    margin-top: 1em;
+  }
+  
+  .popisek{
+    color: #a6a6a6;
+    font-weight: normal;
+  }
+  
+  
+  .cenaSeminare {
+    text-align: right;
+  }
+  
+  .box{
+      padding:60px 0px;
+  }
+  
+.ikony {
+    position: relative;
+    left: 25%;
+}
+
+footer {
+    margin-top: auto;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.print {
+    display: none;
+  }
+
+ 

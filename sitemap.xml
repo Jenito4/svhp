@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<urlset xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+		<url>
+			<loc>http://www.svhp.cz</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://www.svhp.cz/index.php</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://www.svhp.cz/#</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://www.svhp.cz/kurzy.php</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://www.svhp.cz/onas.php</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://www.svhp.cz/fotogalerie.php</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://www.svhp.cz/kontakt.php</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://www.svhp.cz/admin/prihlaseni.php</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://www.svhp.cz/kurz.php?id=1</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://www.svhp.cz/kurz.php?id=2</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+
+	</urlset>
